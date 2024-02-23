@@ -1,0 +1,51 @@
+li {
+    margin: 0;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+p {
+    margin: 0;
+}
+
+.friendText {
+    color: #363636;
+}
+
+.friendText.green::after {
+    content: "Online";
+    color: #009b27;
+}
+
+.friendText.red::after {
+    content: "Offline";
+    color: #ff0000;
+}
+
+.friendList {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 50px;
+}
+
+.friendItem {
+    padding: 10px;
+    background-color: #d7d7d7;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.friendItemContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.friendImg {}
